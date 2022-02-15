@@ -3,15 +3,12 @@ var input1 = document.querySelector("#input1");
 var input2 = document.querySelector("#input2")
 var output= document.querySelector("#output");
 
-
-
 btn.addEventListener("click", clickEventHandler);
 function clickEventHandler(){
 
-    var ione = input1.value;
-    var itwo = input2.value;
+    var one = input1.value;
+    var two = input2.value;
 
-   output.innerText = ( ione * itwo) 
+   output.innerText = (one * two)
    
 }
-console.log(one.value)
