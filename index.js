@@ -1,14 +1,14 @@
+var oneI = document.querySelector("#oneI");
+var twoI = document.querySelector("#twoI");
 var btn = document.querySelector("#btn");
-var input1 = document.querySelector("#input1");
-var input2 = document.querySelector("#input2")
-var output= document.querySelector("#output");
+var outP = document.querySelector("#outP");
+
 
 btn.addEventListener("click", clickEventHandler);
 function clickEventHandler(){
 
-    var one = input1.value;
-    var two = input2.value;
+var input1 = oneI.value;
+var input2 = twoI.value;
 
-   output.innerText = (one * two)
-   
+    outP.innerText = (input1 * input2);
 }
